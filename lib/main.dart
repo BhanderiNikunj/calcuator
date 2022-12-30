@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Cal(),
-  ));
+    debugShowCheckedModeBanner: false,
+      home: Cal(),
+    ),
+  );
 }
